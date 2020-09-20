@@ -1,0 +1,6 @@
+<h1>Scraped Data</h1>
+
+<% @entriesArray.each do |entry| %>
+	<h2><%= entry.title %></h2>
+	<p><%= link_to entry.link, entry.link, target: "_blank" %></p>
+<% end %>

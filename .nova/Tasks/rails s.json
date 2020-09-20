@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "cd \/\ncd Users\/ElzoMac\/Dropbox\/Rails\/ruby_experiments\/scraper\nrails s"
+    }
+  },
+  "identifier" : "74CB5A60-9CAD-42BD-A152-88B3D4CCA686",
+  "openLogOnRun" : "start"
+}
