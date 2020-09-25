@@ -224,7 +224,7 @@ DEPENDENCIES
   listen (~> 3.2)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)
-  rubocop (~> 0.91.1)
+  rubocop
   sass-rails (>= 6)
   selenium-webdriver
   spring
