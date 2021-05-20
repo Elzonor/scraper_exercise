@@ -1,7 +1,7 @@
 {
   "actions" : {
     "run" : {
-      "enabled" : true,
+      "enabled" : false,
       "script" : "# cd \/\n# cd Users\/ElzoMac\/Dropbox\/Rails\/ruby_experiments\/scraper\nrails s"
     }
   },

@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
 		doc = Nokogiri::HTML(open("https://www.repubblica.it/"))
 		
 		# Narrow down on what we want and build the entries array
-		@entries = doc.css('.entry-title')
+		@entries = doc.css('.entry__title')
 		@entriesArray = []
 		@entries.each do |entry|
 			title = entry.css('a').text
